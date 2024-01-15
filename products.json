@@ -2,11 +2,15 @@
   {
     "name": "Example Product 1",
     "description": "This is an example product.",
-    "asin": "B08N5WRWNW"
+    "asin": "B08N5WRWNW",
+    "image": "https://example.com/product1.jpg",
+    "url": "https://www.amazon.com/dp/B08N5WRWNW"
   },
   {
     "name": "Example Product 2",
     "description": "Another example product.",
-    "asin": "B08N5WRWNX"
+    "asin": "B08N5WRWNX",
+    "image": "https://example.com/product2.jpg",
+    "url": "https://www.amazon.com/dp/B08N5WRWNX"
   }
 ]
