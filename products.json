@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Example Product 1",
+    "description": "This is an example product.",
+    "asin": "B08N5WRWNW"
+  },
+  {
+    "name": "Example Product 2",
+    "description": "Another example product.",
+    "asin": "B08N5WRWNX"
+  }
+]
