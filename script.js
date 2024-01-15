@@ -7,9 +7,12 @@ fetch('products.json')
       const productElement = document.createElement('div');
       productElement.classList.add('product');
       productElement.innerHTML = `
-        <h2>${product.name}</h2>
+        <a href="${product.url}" target="_blank">
+          <h2>${product.name}</h2>
+        </a>
         <p>${product.description}</p>
-        <a class="buy-button" href="https://www.amazon.com/dp/${product.asin}" target="_blank">Buy on Amazon</a>
+        <img src="${product.image}" alt="${product.name}" />
+        <a class="buy-button" href="${product.url}" target="_blank">Buy on Amazon</a>
       `;
       productsContainer.appendChild(productElement);
     });
