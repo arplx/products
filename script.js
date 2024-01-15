@@ -7,7 +7,7 @@ fetch('products.json')
       const productElement = document.createElement('div');
       productElement.classList.add('product');
       productElement.innerHTML = `
-        <a href="${product.url}" target="_blank">
+        <a class="product-tittle" href="${product.url}" target="_blank">
           <h2>${product.name}</h2>
         </a>
         <p>${product.description}</p>
