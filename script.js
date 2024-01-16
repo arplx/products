@@ -7,7 +7,7 @@ fetch('products.json')
       const productElement = document.createElement('div');
       productElement.classList.add('product');
       productElement.innerHTML = `
-      <img src="${product.image}" alt="${product.name}" style="width: 100%;height: 400px;object-fit: cover;object-position: top;display: block;">
+      <img src="${product.image}" alt="${product.name}" style="width: 100%;height: 55%;object-fit: cover;object-position: top;display: block;">
       <a class="product-tittle" href="${product.url}" target="_blank" style="padding: 0px;margin: 0px;text-decoration: none;">
           <h2 style="margin: 0px;font-size: 15px;text-align: center;text-decoration: none;color: black;">${product.name}</h2>
         </a>
