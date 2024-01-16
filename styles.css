@@ -5,7 +5,6 @@ body {
 #products-container {
   display: grid;
   grid-template-columns: repeat(3, minmax(0px, 1fr));
-  width: 50%;
 }
 
 .product {
