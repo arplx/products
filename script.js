@@ -9,7 +9,8 @@ fetch('products.json')
       productElement.innerHTML = `
       <img src="${product.image}" alt="${product.name}" style="width: 100%;height: 200px;object-fit: cover;object-position: top;display: flex;">
       <a class="product-tittle" href="${product.url}" target="_blank" style="padding: 0px;margin: 0px;text-decoration: none;">
-          <h2 style="margin: 0px;font-size: 15px;text-align: center;text-decoration: none;color: black;">${product.name}</h2>
+          <h2 style="margin: 0px;font-size: 12px;text-align: center;text-decoration: none;color: black; font-family: helvetica;
+  margin-top: 5px;">${product.name}</h2>
         </a>
       <p style="font-size: 11px;font-family: helvetica;padding: 0px;margin: 0px;max-height: 97px;overflow: scroll;font-size: 18px;font-weight: 600;text-align: center;margin-top: 5px;margin-bottom: 5px;">${product.price}</p>
       <a <button="" href="${product.url}" type="button" style="height: 45px;padding: 0px;background-color: #000;width: 300px;border-radius: 10px;width: 100%;">
