@@ -11,7 +11,7 @@ fetch('products.json')
       <a class="product-tittle" href="${product.url}" target="_blank" style="padding: 0px;margin: 0px;text-decoration: none;">
           <h2 style="margin: 0px;font-size: 15px;text-align: center;text-decoration: none;color: black;">${product.name}</h2>
         </a>
-      <p style="font-size: 11px;font-family: helvetica;padding: 0px;margin: 0px;margin-bottom: 10px;max-height: 97px;overflow: scroll;">${product.description}</p>
+      <p style="font-size: 11px;font-family: helvetica;padding: 0px;margin: 0px;max-height: 97px;overflow: scroll;font-size: 18px;font-weight: 600;text-align: center;margin-top: 5px;margin-bottom: -5px;">${product.price}</p>
       <a class="buy-button" href="${product.url}" target="_blank" style="width: auto;background: black;color: white;">BUY</a>
       `;
       productsContainer.appendChild(productElement);
