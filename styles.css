@@ -3,16 +3,16 @@ body {
 }
 
 #products-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
 }
 
 .product {
-  width: 22%;
+  width: auto;
   margin-bottom: 2rem;
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-}
 
 .product h2 {
   margin-top: 0;
